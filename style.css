@@ -1,0 +1,142 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+body {    
+    display: grid;
+    grid-template-columns: 5vw 18vw 27vw 27vw 18vw 5vw;
+    grid-template-rows: 16vh 28vh 28vh 28vh;
+}
+
+#titel {
+    background-color:#EC1C25;
+    color:white;
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.8rem;
+    font-family:serif
+}
+
+#photo {
+    background-color:black;
+    grid-column:  3/ 4;
+    grid-row:  2/ 3;
+    padding-top: 10px;
+}
+
+#tekst {
+    background-color:#0d1e93;
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:serif
+}
+
+#cirkel {
+    background-color:black;
+    padding-left:90px;
+    padding-top:5px;
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+}
+
+#rechthoek {
+    background-color:rgb(114, 178, 227);
+    color:#b31b23;
+    grid-column:  3/ 4;
+    grid-row: 3 / 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px;
+    text-align: center;
+    font-family:cursive;
+}
+
+#vierkant {
+    background-color:#EC1C25;
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/marvel.jpg");
+}
+
+#vierkant a:hover {
+    color:#0d1e93;
+}
+
+#links {
+    background-color:#0d1e93;
+    grid-column: 2 / 3;
+    grid-row:  1/ 5;
+    padding:23px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+#rechts {
+    background-color:rgb(114, 178, 227);
+    grid-column: 5 / 6;
+    grid-row:  1/ 5;
+    padding-left:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+#lz {
+    background-color:lightgreen;
+    grid-column: 1 / 2;
+    grid-row:  1/ 5;
+}
+
+#rz {
+    background-color:rgb(199, 123, 169);
+    grid-column: 6 / 7;
+    grid-row: 1 / 5;
+}
+
+.opmaak {
+    color:white;
+    font-size:1.5rem;
+    text-align:center;
+    background-color:#EC1C25;
+    padding:10px;
+}
+
+.groot {
+    background-image: url("images/groot.jpg");
+    background-size:contain;
+}
+
+#knop {
+    margin-bottom:20px;
+    margin-top:-20px;
+}
